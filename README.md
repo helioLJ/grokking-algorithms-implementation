@@ -20,9 +20,14 @@ This repository contains implementations of algorithms from the book "Grokking A
 
 ## Implementing Algorithms
 
-1. Navigate to the appropriate chapter directory in `src/`.
-2. Implement the algorithm in the corresponding Python file.
-3. Run the tests to verify your implementation.
+If you want to generate template files from the existing implementations:
+
+1. Ensure you have committed any changes you want to keep.
+2. Run the template generation script:
+```python
+python scripts/generate_templates.py
+```
+3. This will replace all implementation files in the `src` directory with template versions, keeping only function signatures and docstrings.
 
 ## Running Tests
 

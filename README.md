@@ -11,8 +11,7 @@ This repository contains implementations of algorithms from the book "Grokking A
    cd grokking_algorithms
    ```
 
-2. Set up a virtual environment using uv(optional but recommended):
-[uv](https://docs.astral.sh/uv/getting-started/installation/)
+2. Set up a virtual environment using [uv](https://docs.astral.sh/uv/getting-started/installation/) (optional but recommended):
 
 3. Install dependencies:
    ```

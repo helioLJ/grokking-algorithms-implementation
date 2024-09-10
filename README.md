@@ -5,15 +5,18 @@ This repository contains implementations of algorithms from the book "Grokking A
 
 ## Getting Started
 
-1. Clone the repository:
+1. Install uv (if not already installed):
+   ```
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Clone the repository:
    ```
    git clone https://github.com/yourusername/grokking_algorithms.git
    cd grokking_algorithms
    ```
 
-2. Set up a virtual environment using [uv](https://docs.astral.sh/uv/getting-started/installation/) (optional but recommended):
-
-3. Install dependencies:
+3. Install project dependencies:
    ```
    uv sync
    ```
@@ -24,21 +27,20 @@ If you want to generate template files from the existing implementations:
 
 1. Ensure you have committed any changes you want to keep.
 2. Run the template generation script:
-```python
-python scripts/generate_templates.py
-```
-3. This will replace all implementation files in the `src` directory with template versions, keeping only function signatures and docstrings.
+   ```
+   uv run python scripts/generate_templates.py
+   ```
 
 ## Running Tests
 
 To run all tests:
-```python
-pytest
+```
+uv run pytest
 ```
 
 To run tests for a specific chapter, navigate to the chapter directory and run:
 ```python
-pytest tests/test_chapterX
+uv run pytest tests/test_chapterX
 ```
 
 ## Contributing

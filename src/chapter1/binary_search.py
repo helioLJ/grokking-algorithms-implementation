@@ -9,5 +9,16 @@ def binary_search(sorted_list: list[int], target: int) -> int:
     Returns:
         int: The index of the target value if found, or -1 if not found.
     """
-    # TODO: Implement binary search algorithm here
+    low = 0
+    high = len(sorted_list) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        guess = sorted_list[mid]
+        if guess == target:
+            return mid
+        if guess > target:
+            high = mid - 1
+        else:
+            low = mid + 1
     return -1

@@ -12,8 +12,8 @@ This repository contains implementations of algorithms from the book "Grokking A
 
 2. Clone the repository:
    ```
-   git clone https://github.com/helioLJ/grokking_algorithms.git
-   cd grokking_algorithms
+   git clone https://github.com/helioLJ/grokking-algorithms-implementation.git
+   cd grokking-algorithms-implementation
    ```
 
 3. Install project dependencies:

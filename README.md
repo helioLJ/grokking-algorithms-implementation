@@ -12,7 +12,7 @@ This repository contains implementations of algorithms from the book "Grokking A
 
 2. Clone the repository:
    ```
-   git clone https://github.com/yourusername/grokking_algorithms.git
+   git clone https://github.com/helioLJ/grokking_algorithms.git
    cd grokking_algorithms
    ```
 

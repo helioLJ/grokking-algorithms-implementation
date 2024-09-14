@@ -38,6 +38,7 @@ To run all tests:
 uv run pytest
 ```
 
+![Pytest](grokking-algorithms-pytest.gif)
 To run tests for a specific chapter, navigate to the chapter directory and run:
 ```python
 uv run pytest tests/test_chapterX
@@ -49,10 +50,6 @@ uv run pytest tests/test_chapterX
 2. Create a new branch for your feature
 3. Implement your changes and add tests if necessary
 4. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
